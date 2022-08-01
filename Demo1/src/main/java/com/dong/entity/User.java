@@ -1,5 +1,6 @@
 package com.dong.entity;
 
+
 public class User {
     private Integer id;
     private String name;

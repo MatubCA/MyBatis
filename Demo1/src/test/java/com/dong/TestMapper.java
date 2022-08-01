@@ -1,5 +1,6 @@
 package com.dong;
 
+import com.dong.entity.User;
 import com.dong.mapper.UserMapper;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -9,8 +10,14 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 
 public class TestMapper {
+
+
     @Test
     public void test() throws IOException {
 
@@ -27,8 +34,16 @@ public class TestMapper {
         UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
 
         // 调用UserMapper接口中的方法,寻找相应的映射文件,执行SQL语句,返回结果集
-        int result = userMapper.insertUser();
 
-        System.out.println(result);
+        /*Map<String,Object> map = new HashMap<String,Object>();
+        map.put("name","龙傲天");
+        map.put("password","2020");*/
+        User user1 = new User(null, "叶良辰", "888");
+        userMapper.insertUser(user1);
+        List<User> users = userMapper.selectUsers();
+
+        for (User user : users) {
+            System.out.println(user);
+        }
     }
 }

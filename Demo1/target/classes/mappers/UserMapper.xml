@@ -4,8 +4,57 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!--namespace 和mapper接口的全类名一致-->
 <mapper namespace="com.dong.mapper.UserMapper">
+
+
+
+    <!--插入!-->
     <!--id 属性值和mapper接口中定义的方法一致-->
     <insert id="insertUser">
-        insert into user values (null,'黑夫','123');
+        /* 有多个参数的时候,参数被存储到map集合中 key可以是arg和param
+           arg从0开始: arg0\arg1...
+           param从1开始: param1\param2...
+        */
+#         insert into user values (null,#{arg0},#{arg1});
+        insert into user values (null,#{name},#{password})
     </insert>
+
+
+
+    <!--删除!-->
+    <delete id="deleteUser">
+        /* 只有一个参数的时候,名字随便取*/
+        delete from user where id=#{userId}
+    </delete>
+
+
+
+
+    <!--查询一个对象!-->
+    <!--select标签必须设置属性-->
+    <!--
+    resultType：自动映射，用于属性名和表中字段名一致的情况
+    resultMap：自定义映射，用于一对多或多对一或字段名和属性名不一致的情况
+    -->
+    <select id="selectUser" resultType="com.dong.entity.User">
+#         select * from user where id=${userId}
+        select * from user where id=#{userId}
+    </select>
+
+
+
+
+    <!--查询多个对象!-->
+    <!--查询多条语句的时候,必须以集合为容器-->
+    <select id="selectUsers" resultType="com.dong.entity.User">
+        select * from user
+    </select>
+
+
+
+
+
+    <!--修改!-->
+    <update id="updateUser">
+        update user set name = #{arg0} where id=#{arg1}
+    </update>
 </mapper>

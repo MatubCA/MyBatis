@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="MyBatisDemo:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -50,10 +55,10 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="SDK" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="工件" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RunManager">
     <configuration name="TestMapper.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -88,7 +93,11 @@
       <updated>1659270043155</updated>
       <workItem from="1659270047753" duration="5638000" />
       <workItem from="1659320826403" duration="2248000" />
-      <workItem from="1659323901963" duration="372000" />
+      <workItem from="1659323901963" duration="4088000" />
+      <workItem from="1659328414107" duration="2111000" />
+      <workItem from="1659338454952" duration="330000" />
+      <workItem from="1659339096363" duration="6134000" />
+      <workItem from="1659345298982" duration="4036000" />
     </task>
     <servers />
   </component>
