@@ -2,7 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace 和mapper接口的全类名一致-->
 <mapper namespace="com.dong.mapper.UserMapper">
+    <!--id 属性值和mapper接口中定义的方法一致-->
     <insert id="insertUser">
         insert into user values (null,'黑夫','123');
     </insert>
