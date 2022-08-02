@@ -60,7 +60,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestMapper.test4">
     <configuration name="TestMapper.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Demo1" />
       <extension name="coverage">
@@ -77,8 +77,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestMapper.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dong" />
+      <option name="MAIN_CLASS_NAME" value="com.dong.TestMapper" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMapper.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dong" />
+      <option name="MAIN_CLASS_NAME" value="com.dong.TestMapper" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMapper.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dong" />
+      <option name="MAIN_CLASS_NAME" value="com.dong.TestMapper" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMapper.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dong" />
+      <option name="MAIN_CLASS_NAME" value="com.dong.TestMapper" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestMapper.test4" />
+        <item itemvalue="JUnit.TestMapper.test3" />
+        <item itemvalue="JUnit.TestMapper.test2" />
+        <item itemvalue="JUnit.TestMapper.test1" />
         <item itemvalue="JUnit.TestMapper.test" />
       </list>
     </recent_temporary>
@@ -97,7 +165,9 @@
       <workItem from="1659328414107" duration="2111000" />
       <workItem from="1659338454952" duration="330000" />
       <workItem from="1659339096363" duration="6134000" />
-      <workItem from="1659345298982" duration="4036000" />
+      <workItem from="1659345298982" duration="4619000" />
+      <workItem from="1659425639195" duration="3258000" />
+      <workItem from="1659429729029" duration="8699000" />
     </task>
     <servers />
   </component>
