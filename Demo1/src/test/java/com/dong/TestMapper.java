@@ -129,7 +129,7 @@ public class TestMapper {
         });
     }
     /*
-
+        测试查询单个对象装入map集合
      */
     @Test
     public void test5() throws IOException{
@@ -138,6 +138,9 @@ public class TestMapper {
         SqlSession sqlSession = sqlSessionFactory.openSession(true);
         UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
 
-
+        Map<String, Object> map = userMapper.selectMap();
+        for (String key : map.keySet()) {
+            System.out.print(key+":"+map.get(key)+" ");
+        }
     }
 }
