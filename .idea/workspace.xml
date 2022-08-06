@@ -59,7 +59,7 @@
     <property name="project.structure.last.edited" value="工件" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="JUnit.TestMapper.test5">
     <configuration name="TestMapper.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -169,7 +169,8 @@
       <workItem from="1659345298982" duration="4619000" />
       <workItem from="1659425639195" duration="3258000" />
       <workItem from="1659429729029" duration="8699000" />
-      <workItem from="1659486951435" duration="6427000" />
+      <workItem from="1659486951435" duration="7561000" />
+      <workItem from="1659760203049" duration="856000" />
     </task>
     <servers />
   </component>
